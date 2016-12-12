@@ -1,0 +1,23 @@
+{
+  "name": "hw8",
+  "version": "1.0.0",
+  "description": "my HW-8 trought Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Goryachev",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "simple-line-icons": "^2.4.1"
+  },
+  "dependencies": {
+    "simple-line-icons": "^2.4.1"
+  }
+}

@@ -1,0 +1,66 @@
+.button-general
+  color: $active-color
+  font: 700 13px "Raleway"
+  text-transform: uppercase
+  background-color: transparent
+  border: 2px solid $active-color
+  padding: 20px 30px
+  letter-spacing: 1px
+  border-radius: 0
+  cursor: pointer
+  &:active,
+  &:hover,
+  &:focus
+    border-color: $active-color-button
+    color: $active-color-button
+    outline: none
+
+.button-arrow
+  position: relative
+  border: 2px solid #36a8ff
+  width: 45px
+  height: 45px
+  transform: rotate(90deg)
+  margin: 0
+  color: #36a8ff
+  border-radius: 50%
+  background: transparent
+  font-size: 28px
+  cursor: pointer
+  transition: .2s
+  i
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-45%, -55%)
+  &:hover
+    color: #36a8ff !important
+    border-color: #36a8ff !important
+  &:active,
+  &:hover,
+  &:focus
+    outline: none
+
+.collapsed
+  transform: rotate(0deg) !important
+  color: #1c1c1c !important
+  border: 2px solid #1c1c1c !important
+
+.button-requirements
+  display: inline-block
+  background-color: $active-color
+  border: none
+  padding: 18px 30px
+  letter-spacing: 1px
+  border-radius: 0
+  cursor: pointer
+  color: #1c1c1c
+  font: 700 13px/14px Raleway
+  text-transform: uppercase
+  &:hover
+    color: #fff
+  &:active,
+  &:hover,
+  &:focus
+    background: $active-color-button
+    outline: none

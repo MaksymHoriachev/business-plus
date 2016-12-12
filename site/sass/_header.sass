@@ -1,0 +1,40 @@
+.header-main
+  position: absolute
+  width: 100%
+  border-bottom: 1px solid rgba(#fff, .15)
+  z-index: 100
+
+.header-navigation
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-end
+  padding: 15px 0 30px 0
+  .header-logo
+    img
+      max-width: 165px
+      max-height: 35px
+  .phone::before
+    content: ''
+    display: inline-block
+    border-left: 1px solid rgba(#fff, .15)
+    height: 24px
+    margin-right: 10px
+    vertical-align: bottom
+  nav
+    margin-left: auto
+    ul
+      li
+        margin-left: 30px !important
+        &:first-child
+          margin-left: 0 !important
+          a
+            font-weight: 700
+        a
+          color: #fff
+          font: 600 14px/24px "Open Sans"
+          text-transform: uppercase
+          &:hover
+            color: $active-color
+      .active-page
+        a
+          color: $active-color

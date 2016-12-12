@@ -1,0 +1,137 @@
+.footer-main
+  background-color: #2a2b2c
+  position: relative
+  padding: 85px 0
+  z-index: 100
+
+.footer-link
+  margin-bottom: 35px
+  img
+    max-width: 170px
+  max-height: 35px
+
+.lawyer
+  color: #8e8e8e
+  text-transform: uppercase
+  font: 600 13px "Open Sans"
+  margin-bottom: 40px
+
+.footer-social
+  display: flex
+  flex-wrap: wrap
+  li
+    margin-right: 10px
+    margin-bottom: 10px
+    button, a
+      display: inline-block
+      padding: 6px 10px
+      background: transparent
+      border-radius: 0
+      border: 1px solid #373839
+      i
+        color: #8a8a8a
+      &:hover
+        border-color: $active-color-button
+        i
+          color: $active-color-button
+      &:active,
+      &:focus
+        outline: none
+
+.footer-nav
+  color: white
+  font: 700 18px Raleway
+  text-transform: uppercase
+  margin-bottom: 40px
+
+.list-navigation
+  li
+    width: 65%
+    border-bottom: 1px solid #373839
+    &:last-child
+      border-bottom: none
+    a
+      display: inline-block
+      padding: 10px 0 10px 30px
+      color: #7b7b7c
+      font: 600 13px "Open Sans"
+      text-transform: uppercase
+      position: relative
+      &:hover
+        color: $active-color
+      &::before
+        display: inline-block
+        content: ""
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 3px 0 3px 3px
+        border-color: transparent transparent transparent $active-color
+        position: absolute
+        top: 15px
+        left: 0
+
+/* -------------------------- form ------------------------ */
+.footer-form-head
+  color: white
+  font: 700 18px Raleway
+  text-transform: uppercase
+  margin-bottom: 40px
+
+.name-input
+  padding-right: 0
+
+.email-input
+  padding-left: 0
+
+.form-email,
+.form-name,
+.form-comment
+  border: none
+  width: 100%
+  margin: 0
+  input,
+  textarea
+    background: transparent
+    border: 1px solid #373839
+    border-radius: 0
+    color: $input-color
+    width: 100%
+    padding: 15px
+    font: 400 14px "Open Sans"
+    &::-webkit-input-placeholder
+      color: $placeholder-color
+      text-indent: 0
+      transition: text-indent 0.2s ease
+    &::-moz-placeholder
+      color: $placeholder-color
+      text-indent: 0
+      transition: text-indent 0.2s ease
+    &:-moz-placeholder
+      color: $placeholder-color
+      text-indent: 0
+      transition: text-indent 0.2s ease
+    &:-ms-input-placeholder
+      color: $placeholder-color
+      text-indent: 0
+      transition: text-indent 0.2s ease
+    &:focus::-webkit-input-placeholder
+      text-indent: 10px
+      transition: text-indent 0.2s ease
+    &:focus::-moz-placeholder
+      text-indent: 10px
+      transition: text-indent 0.2s ease
+    &:focus:-moz-placeholder
+      text-indent: 10px
+      transition: text-indent 0.2s ease
+    &:focus:-ms-input-placeholder
+      text-indent: 10px
+      transition: text-indent 0.2s ease
+  textarea
+    border-top: none
+    height: 100px
+    resize: none
+
+.form-email
+  input
+    border-left: none

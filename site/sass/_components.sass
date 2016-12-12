@@ -1,0 +1,130 @@
+a:hover,
+a:active,
+a:focus
+  text-decoration: none
+  outline: none
+
+.list-res
+  padding: 0
+
+/*--------------------------------------*/
+
+.title-text
+  margin-bottom: 60px
+  h2
+    color: #1c1c1c
+    font: 800 30px "Raleway"
+    text-transform: uppercase
+  p
+    color: #1c1c1c
+    font: italic 16px Lora
+    margin-bottom: 0
+
+/*-----------------------------------------*/
+
+.phone
+  color: #fff
+  font: 600 14px/24px "Open Sans"
+  text-transform: uppercase
+  img
+    margin-right: 10px
+  &:hover,
+  &:active,
+  &:focus
+    color: $active-color
+
+/* ----------------------------- pyramid ---------------------------*/
+.pyramid
+  position: relative
+  &::before
+    display: inline-block
+    content: " "
+    position: absolute
+    border-left: 75px solid transparent
+    border-right: 80px solid transparent
+    border-bottom: 100px solid #36a8ff
+  &::after
+    display: inline-block
+    content: " "
+    position: absolute
+    border-left: 70px solid transparent
+    border-right: 70px solid transparent
+    border-bottom: 70px solid #ffaf36
+  &-right
+    &::before
+      right: 70px
+      top: -185px
+    &::after
+      right: 20px
+      top: -155px
+  &-views
+    &::before
+      left: 70px
+      bottom: -100px
+    &::after
+      left: 20px
+      bottom: -100px
+
+/* ------------------------------------- replay -------------------------- */
+
+.replay
+  display: inline-block
+  width: 34px
+  height: 34px
+  border-radius: 50%
+  border: 2px solid $active-color
+  text-align: center
+  &:hover
+    border-color: $active-color-button
+    i
+      color: $active-color-button
+  i
+    color: $active-color
+    line-height: 30px
+
+/* -------------------------------- form sections ---------------------------------- */
+
+.leave-comment-section,
+.contact-from-section
+  background: #eaeff3
+  .container
+    padding-top: 90px
+    padding-bottom: 100px
+
+/* ----------------------------------- form  ------------------- */
+.form-section
+  label
+    width: 100%
+    input,
+    textarea,
+    select
+      position: relative
+      padding: 15px 0
+      width: 100%
+      border-radius: 0
+      border: 1px solid #eaeff3
+      border-bottom: 1px solid #dce3e8
+      background: transparent
+      font: 700 14px/24px "Open Sans"
+      text-transform: uppercase
+      color: #757c81
+      letter-spacing: 1px
+      &:hover,
+      &:active,
+      &:focus
+        outline: none
+    textarea
+      resize: none
+      height: 200px
+      padding: 30px 0
+      margin-bottom: 40px
+    select
+      font-weight: 800
+      color: rgba(#000000, 0.3)
+      option
+        font: 700 14px/24px "Open Sans"
+        text-transform: uppercase
+        background: #eaeff3
+        padding-left: 50px
+
+

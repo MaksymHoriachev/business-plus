@@ -1,0 +1,129 @@
+.about-section
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+
+.text-about
+  color: #585858
+  font: 400 14px/28px "Open Sans"
+  margin-bottom: 80px
+
+.banner-about
+  position: relative
+  background: #000
+  img
+    width: 100%
+  &-button
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    button, a
+      width: 150px
+    button:first-child, a:first-child
+      margin-right: 30px
+
+/*-----------------------------------------------*/
+
+.our-views-section
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  background: #eaeff3
+
+.views-section
+  min-height: 200px
+  padding-bottom: 20px
+  div:first-child
+    background: #000
+    img
+      max-width: 270px
+      max-height: 180px
+      opacity: .9
+  div:last-child
+    h5
+      padding-top: 30px
+      color: #1c1c1c
+      font: 700 16px/24px "Raleway"
+      text-transform: uppercase
+    p
+      color: #585858
+      font: 400 14px/28px "Open Sans"
+  &-left
+    div:first-child
+      float: left
+    div:last-child
+      margin-left: 300px
+      text-align: left
+  &-right
+    div:first-child
+      float: right
+    div:last-child
+      margin-right: 300px
+      text-align: right
+
+/*---------------------------------------------------*/
+
+.clients-section
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+
+.clients
+  &-block
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 100px
+    li
+      flex-basis: 16.6%
+      border-radius: 0
+      list-style: none
+      border: 1px solid #eaeff3
+      text-align: center
+      height: 180px
+      a
+        display: inline-block
+        line-height: 178px
+  &-navigation
+    li
+      display: inline-block
+      margin: 0 !important
+      a
+        display: inline-block
+        width: 10px
+        height: 10px
+        background: #36a8ff
+        border-radius: 50%
+        cursor: pointer
+        &:hover
+          background: $active-color
+      .active-list-clients
+        background: $active-color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
