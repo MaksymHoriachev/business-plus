@@ -1,5 +1,5 @@
 {
-  "name": "HW-10",
+  "name": "hw-10",
   "description": "my HW-8 trought Gulp",
   "main": "index.js",
   "authors": [
@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.5"
+    "bootstrap": "v4.0.0-alpha.5",
+    "font-awesome": "^4.7.0"
   }
 }
