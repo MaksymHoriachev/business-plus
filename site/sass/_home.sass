@@ -24,7 +24,7 @@
       div
         img
           width: 100%
-          opacity: 0.2
+          opacity: 0.15
         .container
           position: absolute
           top: 0
@@ -152,9 +152,84 @@
 .home-news
   position: relative
   padding-top: 100px
-  padding-bottom: 100px
+  padding-bottom: 80px
   background: #eaeff3
   
+.home-news-content
+  ul
+    float: left
+    width: 75px
+    padding: 0
+    li
+      list-style: none
+      text-align: right
+      p
+        position: relative
+        font: 400 14px/18px "Open Sans"
+        color: #565656
+        border-bottom: 1px solid $active-color
+        padding-bottom: 20px
+        &::before
+          content: ""
+          position: absolute
+          bottom: -1px
+          left: 0
+          width: 15px
+          height: 1px
+          background: #000
+        span, i
+          display: block
+          margin-bottom: 5px
+          font-size: 30px
+          font-weight: 700
+          color: #1c1c1c
+      &:last-child
+        p
+          border: none
+          &::before
+            content: ""
+            position: absolute
+            bottom: -1px
+            left: 0
+            width: 0px
+            height: 0px
+            background: #000
+  div
+    margin-left: 95px
+    margin-bottom: 40px
+    padding-bottom: 20px
+    border-bottom: 1px solid #d8dcdf
+    &:last-child
+      border-bottom: none
+      margin-bottom: 0
+    img
+      width: 100%
+      margin-bottom: 40px
+    h4
+      color: #1c1c1c
+      font: 700 16px/24px Raleway
+      margin-bottom: 0
+    span
+      color: #ffaf36
+      font: 700 12px/18px "Open Sans"
+    p
+      color: #585858
+      font: 400 14px/28px "Open Sans"
+      margin-top: 15px
+    button, a
+      margin-top: 50px
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------------------------------- */
