@@ -1,0 +1,184 @@
+.banner-slider
+  position: relative
+  .slider-home
+    &-list
+      bottom: 30px
+      li
+        width: 25px
+        height: 4px
+        background-color: #8f8f8f
+        border-color: #8f8f8f
+        border-radius: 0
+        margin: 0 12px 0 0
+      li:last-child
+        margin-right: 0
+      .active
+        width: 25px
+        height: 4px
+        background-color: $active-color
+        border-color: $active-color
+        border-radius: 0
+        margin: 0 12px 0 0
+    &-image
+      background: #000
+      div
+        img
+          width: 100%
+          opacity: 0.2
+        .container
+          position: absolute
+          top: 0
+          left: 0
+          right: 0
+          bottom: 0
+          .slider-info
+            padding-top: 300px
+            span
+              display: inline-block
+              color: #fff
+              font: 600 16px Raleway
+              margin-bottom: 10px
+            h2
+              color: #fff
+              font: 700 60px/50px Raleway
+              margin-bottom: 20px
+            p
+              width: 520px
+              color: #fff
+              font: 400 italic 15px/30px Lora
+              margin-bottom: 40px
+            &-left
+              text-align: left
+              p
+                margin-left: 0
+                margin-right: auto
+            &-right
+              text-align: right
+              p
+                margin-left: auto
+                margin-right: 0
+
+/* -------------------------------------------- */
+.home-about
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  &-info
+    p
+      color: #585858
+      font: 400 14px/28px "Open Sans"
+      margin-bottom: 40px
+
+.home-service
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  background-color: #eaeff3
+
+.service-content
+  li
+    position: relative
+  li:hover
+    cursor: pointer
+    i
+      color: #36a8ff
+    h4
+      &::before
+        position: absolute
+        top: -10px
+        left: 0
+        margin-left: 80px
+        content: ""
+        display: inline-block
+        width: 14px
+        height: 2px
+        background: #36a8ff
+
+  /* ------------------------------------------ */
+.home-clients
+  position: relative
+  padding-top: 85px
+  padding-bottom: 100px
+
+.home-clients-comment
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  padding: 0
+  li
+    list-style: none
+    flex-basis: 28%
+    p
+      position: relative
+      color: #585858
+      font: 400 14px/28px "Open Sans"
+      margin-top: 50px
+      margin-bottom: 50px
+      &::before
+        content: "\201c"
+        position: absolute
+        font: 700 280px/240px "Lora"
+        color: #1c1c1c
+        opacity: .1
+        top: -60px
+        left: -8px
+    img
+      float: left
+      width: 70px
+      height: 70px
+      border-radius: 50%
+      border: none
+    .comment-name-people
+      display: block
+      margin-left: 100px
+      padding-top: 15px
+      color: #1c1c1c
+      font: 700 14px/20px Raleway
+    .comment-name-designation
+      display: block
+      margin-left: 100px
+      color: #585858
+      font: 400 14px/20px "Open Sans"
+  .comment-quotation-marks-center
+    p
+      &::before
+        color: #36a8ff
+  .comment-quotation-marks-right
+    p
+      &::before
+        color: #ffaf36
+
+/* -------------------------------------------- */
+.home-news
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  background: #eaeff3
+  
+
+
+/* -------------------------------------------- */
+.home-partners
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+
+.home-partners-content
+  display: flex
+  flex-wrap: wrap
+  padding: 0
+  li
+    position: relative
+    flex-basis: 16.66%
+    height: 130px
+    border-top: 1px solid #eaeff3
+    border-left: 1px solid #eaeff3
+    border-bottom: 1px solid #eaeff3
+    list-style: none
+    img
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+    &:last-child
+      border-right: 1px solid #eaeff3
