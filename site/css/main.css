@@ -175,6 +175,34 @@ a:focus {
     background: #ffaf36;
     margin: 0; }
 
+/* -------------------------- news rhombus ----------------- */
+.date-rhombus {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background: #ffaf36;
+  padding: 15px 20px; }
+  .date-rhombus p {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #1c1c1c;
+    font: 700 13px/12px "Open Sans"; }
+  .date-rhombus:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -20px;
+    border-top: 20px solid #ffaf36;
+    border-left: 20px solid transparent; }
+  .date-rhombus:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -20px;
+    border-bottom: 20px solid #ffaf36;
+    border-left: 20px solid transparent; }
+
 .button-general {
   color: #ffaf36;
   font: 700 13px "Raleway";
@@ -635,6 +663,77 @@ a:focus {
       background: #ffaf36; }
   .clients-navigation li .active-list-clients {
     background: #ffaf36; }
+
+.news-section {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .news-section:nth-child(2n) {
+    background: #eaeff3; }
+
+.news-section-block {
+  position: relative; }
+  .news-section-block .after-rhombus-content {
+    position: relative;
+    margin-left: 200px;
+    min-height: 280px; }
+    .news-section-block .after-rhombus-content img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 360px; }
+      .news-section-block .after-rhombus-content img:nth-child(2) {
+        top: 280px; }
+      .news-section-block .after-rhombus-content img:nth-child(3) {
+        top: 280px;
+        left: 195px; }
+    .news-section-block .after-rhombus-content h4 {
+      margin-left: 380px;
+      color: #1c1c1c;
+      font: 700 16px/16px Raleway;
+      margin-bottom: 20px; }
+    .news-section-block .after-rhombus-content p {
+      margin-left: 380px;
+      color: #585858;
+      font: 400 14px/28px "Open Sans";
+      margin-bottom: 20px; }
+    .news-section-block .after-rhombus-content ul {
+      margin: 0 0 0 380px;
+      padding: 0; }
+      .news-section-block .after-rhombus-content ul li {
+        position: relative;
+        list-style: none;
+        padding: 0;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        color: #1c1c1c;
+        font: 700 12px "Open Sans"; }
+        .news-section-block .after-rhombus-content ul li i {
+          position: absolute;
+          top: 3px;
+          left: -30px; }
+    .news-section-block .after-rhombus-content blockquote {
+      margin-left: 380px;
+      border-left-color: #36a8ff;
+      background-color: #d1ebff; }
+      .news-section-block .after-rhombus-content blockquote p {
+        margin: 30px 50px 30px 35px;
+        font: italic 14px/28px "Open Sans";
+        color: #1c1c1c; }
+
+.news-section-text {
+  position: relative; }
+  .news-section-text .after-rhombus-content {
+    position: relative;
+    margin-left: 200px; }
+    .news-section-text .after-rhombus-content h4 {
+      color: #1c1c1c;
+      font: 700 16px/16px Raleway;
+      margin-bottom: 20px; }
+    .news-section-text .after-rhombus-content p {
+      color: #585858;
+      font: 400 14px/28px "Open Sans";
+      margin-bottom: 20px; }
 
 .faq-section {
   padding-top: 100px;
