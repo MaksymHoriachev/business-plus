@@ -1,4 +1,4 @@
-/.idea/
-/node_modules/
-/bower_components/
-/site/css
+.idea/
+node_modules/
+bower_components/
+site/css/
