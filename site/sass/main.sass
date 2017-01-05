@@ -21,6 +21,222 @@
 
 
 
+.shortcode-section
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+
+.shortcode-section-list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin: 0
+  padding: 0
+  .shortcode-section-content
+    flex-basis: 48%
+    list-style: none
+    margin-bottom: 70px
+    h4
+      color: #1c1c1c
+      font: 700 18px/24px Raleway
+      margin-bottom: 20px !important
+      letter-spacing: 2px
+    .accordion-ul
+      margin: 0
+      padding: 0
+      .accordion-li
+        list-style: none
+        padding-top: 20px
+        border-bottom: 1px solid #e5e5e5
+        &:last-child
+          border-bottom: none
+        .shortcode-section-list-section
+          a
+            display: block
+            color: #1c1c1c
+            font: 700 13px/28px "Open Sans"
+            i
+              float: right
+              padding: 7px 10px
+              color: #fff
+              background-color: #36a8ff
+              transform: rotate(180deg)
+              transition: .2s
+          .collapsed
+            border: none !important
+            i
+              background-color: $active-color
+              color: #000
+              transform: rotate(0deg)!important
+          div
+            p
+              color: #585858
+              font: 400 14px/28px "Open Sans"
+    .tabs
+      .tabs-list
+        border-bottom: 1px solid #e5e5e5
+        li
+          margin-right: 60px
+          a
+            display: inline-block
+            padding: 15px 0
+            font: 700 13px/28px "Open Sans"
+            color: #1c1c1c
+          .active
+            color: #36a8ff
+            border-bottom: 3px solid #36a8ff
+            margin-bottom: -1px
+      .tabs-content
+        div
+          padding-top: 30px
+          margin-bottom: 30px
+          p
+            color: #585858
+            font: 400 14px/28px "Open Sans"
+    .buttons-content
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      .button-example
+        padding: 20px 45px
+        font: 700 13px Raleway
+        margin-bottom: 30px
+        cursor: pointer
+        &:active,
+        &:hover,
+        &:focus
+          outline: none
+        &-border
+          background-color: transparent
+          border: 1px solid #000
+          &-orange
+            color: #ffaf36
+            border-color: #ffaf36
+          &-blue
+            color: #36a8ff
+            border-color: #36a8ff
+          &-black
+            color: #000
+            border-color: #000
+        &-radius
+          border-radius: 30px
+        &-background
+          border: none
+          color: #fff
+          &-orange
+            background-color: #ffaf36
+            border-color: #ffaf36
+          &-blue
+            background-color: #36a8ff
+            border-color: #36a8ff
+          &-black
+            background-color: #000
+            border-color: #000
+    .alerts
+      .alerts-border
+        border: none
+      .alerts-radius
+        border-radius: 0
+      div
+        color: #000
+        margin-bottom: 30px
+        strong
+          color: #000
+          text-transform: uppercase
+    .paginations
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      ul
+        margin: 0
+        padding: 0
+        display: flex
+        justify-content: flex-start
+        li
+          display: flex
+          list-style: none
+          margin-right: 10px
+          a
+            display: flex
+            width: 50px
+            height: 50px
+            border: 1px solid #000
+            color: #000
+            span
+              font: 700 16px "Open Sans"
+              margin: auto
+          &:last-child
+            margin-right: 0
+        .last-numb
+          a
+            background-color: #36a8ff
+            border-color: #36a8ff
+            color: #fff
+        .first-numb
+          a
+            border-color: #ffaf36
+            background-color: #ffaf36
+        .active-numb
+          a
+            color: #ffaf36
+            border-color: #ffaf36
+    .list-style
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      ul
+        margin: 0
+        padding: 0 0 0 30px
+        li
+          position: relative
+          list-style: none
+          color: #585858
+          font: 14px "Open Sans"
+          margin-bottom: 15px
+          i
+            position: absolute
+            top: 3px
+            left: -30px
+    .sliders
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      .sliders-content
+        position: relative
+        flex-basis: 45%
+        .arrow-left
+          position: relative
+          i
+            position: absolute
+            top: -100px
+            left: 20px
+        .arrow-right
+          position: relative
+          i
+            position: absolute
+            top: -100px
+            left: 200px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
