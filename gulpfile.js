@@ -46,3 +46,5 @@ gulp.task('clear', function () {
 });
 
 gulp.task('default', ['watch']);
+
+gulp.task('build', ['sass', 'min', 'jade-pug']);
