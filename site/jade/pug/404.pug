@@ -1,0 +1,109 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title 404
+        // Bootstrap CSS
+        link(rel='stylesheet', href='../../bower_components/bootstrap/dist/css/bootstrap-flex.min.css')
+        link(rel='stylesheet', href='../../bower_components/font-awesome/css/font-awesome.min.css')
+        link(rel='stylesheet', href='../css/main.min.css')
+    body
+        header.header-main
+            .container
+                .row
+                    .col-xs-12
+                        .navbar.header-navigation
+                            a.navbar-brand.header-logo(href='index.html')
+                                img(src='../img/businessplus-logo.png', alt='businessplus')
+                            a.phone(href='tel:+99788856999')
+                                img(src='../img/phone-icon.png', alt='phone')
+                                | +9978 8856 999
+                            nav
+                                ul.nav.navbar-nav
+                                    li.nav-item.active-page
+                                        a(href='../jade/index.html') Home
+                                    li.nav-item
+                                        a(href='../about.html') About us
+                                    li.nav-item
+                                        a(href='../services.html') services
+                                    li.nav-item
+                                        a(href='../news.html') news
+                                    li.nav-item
+                                        a(href='../blog.html') blog
+                                    li.nav-item
+                                        a(href='../pages.html') pages
+                                    li.nav-item
+                                        a(href='../contact.html') Contact Us
+        // banner
+        section.banner-section
+            img(src='../img/404/layer-2.png', alt='banner')
+        // 404
+        section.error-section
+            .container-fluid
+                .row
+                    .col-xs-12
+                        .error-section-message
+                            div
+                                h4.text-uppercase
+                                    | error
+                                    span 404
+                                h4.text-uppercase not found
+                                p.text-uppercase You may have mis-typed the URL Or the page has been removed
+        // footer
+        footer.footer-main
+            .container.pyramid.pyramid-right
+                .row
+                    .col-xs-12.col-md-4.flex-xs-middle
+                        a.footer-link(href='#')
+                            img(src='../img/businessplus-logo.png', alt='business plus')
+                        p.lawyer 2015 © lawyer.
+                        ul.footer-social.list-unstyled
+                            li
+                                button.btn(type='button')
+                                    i.fa.fa-facebook(aria-hidden='true')
+                            li
+                                button.btn(type='button')
+                                    i.fa.fa-google-plus(aria-hidden='true')
+                            li
+                                button.btn(type='button')
+                                    i.fa.fa-twitter(aria-hidden='true')
+                            li
+                                button.btn(type='button')
+                                    i.fa.fa-instagram(aria-hidden='true')
+                    .col-xs-12.col-md-3.flex-xs-top
+                        p.h3.footer-nav Navigation
+                        ul.list-unstyled.list-navigation
+                            li
+                                a(href='../jade/index.html') Home
+                            li
+                                a(href='../about.html') About us
+                            li
+                                a(href='../services.html') services
+                            li
+                                a(href='../testimonials.html') Tesimonial
+                            li
+                                a(href='../blog.html') blog
+                            li
+                                a(href='../contact.html') Contact Us
+                    .col-xs-12.col-md-5.flex-xs-top
+                        p.h3.footer-form-head Quick contact us
+                        form(action='', method='post')
+                            .form-group.row
+                                .col-xs-6.name-input
+                                    label.form-name
+                                        input.qwerty(type='text', name='name', placeholder='Name *', required='')
+                                .col-xs-6.email-input
+                                    label.form-email
+                                        input(type='email', name='email', placeholder='Email *', required='')
+                                .col-xs-12
+                                    label.form-comment
+                                        textarea(name='comment', placeholder='Comment *')
+                            .row
+                                .col-xs-12
+                                    button.btn.button-general(type='submit') Submit Now
+        // jQuery first, then Tether, then Bootstrap JS.
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', integrity='sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js', integrity='sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8', crossorigin='anonymous')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js', integrity='sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK', crossorigin='anonymous')

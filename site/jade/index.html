@@ -1,9 +1,347 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jade pug test</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--title-->
+    <title>business-plus</title>
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+    <!--main.css-->
+    <link rel="stylesheet" href="../css/main.min.css">
   </head>
   <body>
-    <p>someone text</p>
+    <header class="header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="navbar header-navigation"><a class="navbar-brand header-logo" href="index.html"><img src="../img/businessplus-logo.png" alt="businessplus"></a><a class="phone" href="tel:+99788856999"><img src="../img/phone-icon.png" alt="phone">+9978 8856 999</a>
+              <nav>
+                <ul class="nav navbar-nav">
+                  <li class="nav-item active-page"><a href="index.html">Home</a></li>
+                  <li class="nav-item"><a href="about.html">About us</a></li>
+                  <li class="nav-item"><a href="services.html">services</a></li>
+                  <li class="nav-item"><a href="news.html">news</a></li>
+                  <li class="nav-item"><a href="blog.html">blog</a></li>
+                  <li class="nav-item"><a href="pages.html">pages</a></li>
+                  <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--banner slider-->
+    <section class="banner-slider">
+      <div class="carousel slide slider-home" id="home-banner-carousel" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators slider-home-list">
+          <li class="active" data-target="#home-banner-carousel" data-slide-to="0"></li>
+          <li data-target="#home-banner-carousel" data-slide-to="1"></li>
+          <li data-target="#home-banner-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner slider-home-image" role="listbox">
+          <div class="carousel-item active"><img src="../img/home/health-spending-account-small-business.jpg" alt="First slide">
+            <div class="container">
+              <div class="slider-info slider-info-right"><span class="text-uppercase">Welcome to</span>
+                <h2 class="text-uppercase">Business plus</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <button class="button-requirements" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"><img src="../img/home/business-administration-degree-programs.jpg" alt="Second slide">
+            <div class="container">
+              <div class="slider-info slider-info-left"><span class="text-uppercase">Welcome to</span>
+                <h2 class="text-uppercase">Business plus</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <button class="button-requirements" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"><img src="../img/home/business-people-around-computer-1.jpg" alt="Third slide">
+            <div class="container">
+              <div class="slider-info slider-info-left"><span class="text-uppercase">Welcome to</span>
+                <h2 class="text-uppercase">Business plus</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <button class="button-requirements" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home-about-->
+    <section class="home-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-5 title-text">
+            <h2>About us</h2>
+            <p>Our Short Story</p>
+          </div>
+          <div class="col-xs-12 col-lg-7 home-about-info">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><a class="button-general" href="../jade/about.html">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home service-->
+    <section class="home-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 title-text">
+            <h2>Services</h2>
+            <p>What we are doing</p>
+          </div>
+          <div class="col-xs-12">
+            <ul class="service-content">
+              <li><i class="fa fa-rocket" aria-hidden="true"></i>
+                <h4>Boosting your business</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.</p>
+              </li>
+              <li><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <h4>Online support</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.</p>
+              </li>
+              <li><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                <h4>analyzing business strategy</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.</p>
+              </li>
+              <li><i class="fa fa-clock-o" aria-hidden="true"></i>
+                <h4>Time managment</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.</p>
+              </li>
+            </ul><a class="button-general" href="services.html">View more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home clients-->
+    <section class="our-clients">
+      <div class="container pyramid pyramid-right">
+        <div class="row">
+          <div class="col-xs-12 title-text">
+            <h2>Clients</h2>
+            <p>Whats our client says</p>
+          </div>
+          <div class="col-xs-12">
+            <div class="carousel slide slider-box" id="carousel-comments" data-ride="carousel" data-interval="6000" data-pause="hover">
+              <div class="carousel-inner slider-box-content" role="listbox">
+                <div class="carousel-item active">
+                  <ul class="our-clients-comment">
+                    <li>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-5.png" alt="image"><span class="comment-name-people text-uppercase">Krishnan Unni</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-6.png" alt="image"><span class="comment-name-people text-uppercase">Mariya Jeorge</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-right">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-7.png" alt="image"><span class="comment-name-people text-uppercase">Akhil Designer</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul class="our-clients-comment">
+                    <li>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-5.png" alt="image"><span class="comment-name-people text-uppercase">Krishnan Unni</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-6.png" alt="image"><span class="comment-name-people text-uppercase">Mariya Jeorge</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-right">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-7.png" alt="image"><span class="comment-name-people text-uppercase">Akhil Designer</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul class="our-clients-comment">
+                    <li>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-5.png" alt="image"><span class="comment-name-people text-uppercase">Krishnan Unni</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-6.png" alt="image"><span class="comment-name-people text-uppercase">Mariya Jeorge</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                    <li class="comment-quotation-marks-right">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p><img src="../img/home/layer-7.png" alt="image"><span class="comment-name-people text-uppercase">Akhil Designer</span><span class="comment-name-designation">Designation</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <ol class="carousel-indicators slider-box-list">
+                <li class="active" data-target="#carousel-comments" data-slide-to="0"></li>
+                <li data-target="#carousel-comments" data-slide-to="1"></li>
+                <li data-target="#carousel-comments" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home news-->
+    <section class="home-news">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 title-text">
+            <h2>News</h2>
+            <p>From Our Blog</p>
+          </div>
+          <div class="col-xs-12">
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <div class="home-news-content">
+                  <ul>
+                    <li>
+                      <p><span class="text-uppercase">30</span>Oct-2015</p>
+                    </li>
+                    <li>
+                      <p><i class="fa fa-comment-o" aria-hidden="true"></i>8- Com</p>
+                    </li>
+                    <li>
+                      <p><i class="fa fa-eye" aria-hidden="true"></i>16- View</p>
+                    </li>
+                  </ul>
+                  <div class="home-news-content-image"><img src="../img/home/layer-10.png" alt="news-image">
+                    <h4 class="text-uppercase">Blog Heading</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <div class="home-news-content">
+                  <div class="home-partners-content-no-image">
+                    <h4 class="text-uppercase">Blog Heading</h4><span class="text-uppercase">30 - Oct - 2015</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                  </div>
+                  <div class="home-partners-content-no-image">
+                    <h4 class="text-uppercase">Blog Heading</h4><span class="text-uppercase">1 - Nov - 2015</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled...</p><a class="button-general" href="news.html">View more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home clients-->
+    <section class="home-partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 title-text">
+            <h2>Partners</h2>
+            <p>Our Great Partners</p>
+          </div>
+          <div class="col-xs-12">
+            <div class="carousel slide slider-box" id="carousel-partners" data-ride="carousel" data-interval="6000" data-pause="hover">
+              <div class="carousel-inner slider-box-content" role="listbox">
+                <div class="carousel-item active">
+                  <ul class="home-partners-content">
+                    <li><img src="../img/home/partners/vector-smart-object1.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object2.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object3.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object4.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object5.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object6.png" alt="client"></li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul class="home-partners-content">
+                    <li><img src="../img/home/partners/vector-smart-object1.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object2.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object3.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object4.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object5.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object6.png" alt="client"></li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul class="home-partners-content">
+                    <li><img src="../img/home/partners/vector-smart-object1.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object2.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object3.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object4.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object5.png" alt="client"></li>
+                    <li><img src="../img/home/partners/vector-smart-object6.png" alt="client"></li>
+                  </ul>
+                </div>
+              </div>
+              <ol class="carousel-indicators slider-box-list">
+                <li class="active" data-target="#carousel-partners" data-slide-to="0"></li>
+                <li data-target="#carousel-partners" data-slide-to="1"></li>
+                <li data-target="#carousel-partners" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer-->
+    <footer class="footer-main">
+      <div class="container pyramid pyramid-right">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 flex-xs-middle"><a class="footer-link" href="#"><img src="../img/businessplus-logo.png" alt="business plus"></a>
+            <p class="lawyer">2015 © lawyer.</p>
+            <ul class="footer-social list-unstyled">
+              <li>
+                <button class="btn" type="button"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+              </li>
+              <li>
+                <button class="btn" type="button"><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+              </li>
+              <li>
+                <button class="btn" type="button"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+              </li>
+              <li>
+                <button class="btn" type="button"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-3 flex-xs-top">
+            <p class="h3 footer-nav">Navigation</p>
+            <ul class="list-unstyled list-navigation">
+              <li><a href="../jade/index.html">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">Tesimonial</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-5 flex-xs-top">
+            <p class="h3 footer-form-head">Quick contact us</p>
+            <form action="" method="post">
+              <div class="form-group row">
+                <div class="col-xs-6 name-input">
+                  <label class="form-name">
+                    <input class="qwerty" type="text" name="name" placeholder="Name *" required="">
+                  </label>
+                </div>
+                <div class="col-xs-6 email-input">
+                  <label class="form-email">
+                    <input type="email" name="email" placeholder="Email *" required="">
+                  </label>
+                </div>
+                <div class="col-xs-12">
+                  <label class="form-comment">
+                    <textarea name="comment" placeholder="Comment *"></textarea>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <button class="btn button-general" type="submit">Submit Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   </body>
 </html>
