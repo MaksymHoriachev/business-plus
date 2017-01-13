@@ -1,0 +1,332 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        //title
+        title business-plus
+        //bootstrap CSS
+        link(rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap-flex.min.css")
+        link(rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css")
+        //main.css
+        link(rel="stylesheet" href="../css/main.min.css")
+
+    body
+        header.header-main
+            .container
+                .row
+                    .col-xs-12
+                        .navbar.header-navigation
+                            a.navbar-brand.header-logo(href='index.html')
+                                img(src='../img/businessplus-logo.png', alt='businessplus')
+                            a.phone(href='tel:+99788856999')
+                                img(src='../img/phone-icon.png', alt='phone')
+                                |+9978 8856 999
+                            nav
+                                ul.nav.navbar-nav
+                                    li.nav-item.active-page
+                                        a(href='index.html') Home
+                                    li.nav-item
+                                        a(href='about.html') About us
+                                    li.nav-item
+                                        a(href='services.html') services
+                                    li.nav-item
+                                        a(href='news.html') news
+                                    li.nav-item
+                                        a(href='blog.html') blog
+                                    li.nav-item
+                                        a(href='pages.html') pages
+                                    li.nav-item
+                                        a(href='contact.html') Contact Us
+        //banner slider
+        section.banner-slider
+            #home-banner-carousel.carousel.slide.slider-home(data-ride='carousel', data-interval='6000')
+                ol.carousel-indicators.slider-home-list
+                    li.active(data-target='#home-banner-carousel', data-slide-to='0')
+                    li(data-target='#home-banner-carousel', data-slide-to='1')
+                    li(data-target='#home-banner-carousel', data-slide-to='2')
+                .carousel-inner.slider-home-image(role='listbox')
+                    .carousel-item.active
+                        img(src='../img/home/health-spending-account-small-business.jpg', alt='First slide')
+                        .container
+                            .slider-info.slider-info-right
+                                span.text-uppercase Welcome to
+                                h2.text-uppercase Business plus
+                                p Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                button.button-requirements(type='button') Read More
+                    .carousel-item
+                        img(src='../img/home/business-administration-degree-programs.jpg', alt='Second slide')
+                        .container
+                            .slider-info.slider-info-left
+                                span.text-uppercase Welcome to
+                                h2.text-uppercase Business plus
+                                p Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                button.button-requirements(type='button') Read More
+                    .carousel-item
+                        img(src='../img/home/business-people-around-computer-1.jpg', alt='Third slide')
+                        .container
+                            .slider-info.slider-info-left
+                                span.text-uppercase Welcome to
+                                h2.text-uppercase Business plus
+                                p Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                button.button-requirements(type='button') Read More
+        // home-about
+        section.home-about
+            .container
+                .row
+                    .col-xs-12.col-lg-5.title-text
+                        h2 About us
+                        p Our Short Story
+                    .col-xs-12.col-lg-7.home-about-info
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        a.button-general(href='../jade/about.html') read more
+        // home service
+        section.home-service
+            .container
+                .row
+                    .col-xs-12.title-text
+                        h2 Services
+                        p What we are doing
+                    .col-xs-12
+                        ul.service-content
+                            li
+                                i.fa.fa-rocket(aria-hidden='true')
+                                h4 Boosting your business
+                                p Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            li
+                                i.fa.fa-envelope-o(aria-hidden='true')
+                                h4 Online support
+                                p Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            li
+                                i.fa.fa-hand-o-right(aria-hidden='true')
+                                h4 analyzing business strategy
+                                p Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            li
+                                i.fa.fa-clock-o(aria-hidden='true')
+                                h4 Time managment
+                                p Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                        a.button-general(href='services.html') View more
+        // home clients
+        section.our-clients
+            .container.pyramid.pyramid-right
+                .row
+                    .col-xs-12.title-text
+                        h2 Clients
+                        p Whats our client says
+                    .col-xs-12
+                        #carousel-comments.carousel.slide.slider-box(data-ride='carousel', data-interval='6000', data-pause='hover')
+                            .carousel-inner.slider-box-content(role='listbox')
+                                .carousel-item.active
+                                    ul.our-clients-comment
+                                        li
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-5.png', alt='image')
+                                            span.comment-name-people.text-uppercase Krishnan Unni
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-center
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-6.png', alt='image')
+                                            span.comment-name-people.text-uppercase Mariya Jeorge
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-right
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-7.png', alt='image')
+                                            span.comment-name-people.text-uppercase Akhil Designer
+                                            span.comment-name-designation Designation
+                                .carousel-item
+                                    ul.our-clients-comment
+                                        li
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-5.png', alt='image')
+                                            span.comment-name-people.text-uppercase Krishnan Unni
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-center
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-6.png', alt='image')
+                                            span.comment-name-people.text-uppercase Mariya Jeorge
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-right
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-7.png', alt='image')
+                                            span.comment-name-people.text-uppercase Akhil Designer
+                                            span.comment-name-designation Designation
+                                .carousel-item
+                                    ul.our-clients-comment
+                                        li
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-5.png', alt='image')
+                                            span.comment-name-people.text-uppercase Krishnan Unni
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-center
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-6.png', alt='image')
+                                            span.comment-name-people.text-uppercase Mariya Jeorge
+                                            span.comment-name-designation Designation
+                                        li.comment-quotation-marks-right
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                            img(src='../img/home/layer-7.png', alt='image')
+                                            span.comment-name-people.text-uppercase Akhil Designer
+                                            span.comment-name-designation Designation
+                            ol.carousel-indicators.slider-box-list
+                                li.active(data-target='#carousel-comments', data-slide-to='0')
+                                li(data-target='#carousel-comments', data-slide-to='1')
+                                li(data-target='#carousel-comments', data-slide-to='2')
+        // home news
+        section.home-news
+            .container
+                .row
+                    .col-xs-12.title-text
+                        h2 News
+                        p From Our Blog
+                    .col-xs-12
+                        .row
+                            .col-xs-12.col-lg-6
+                                .home-news-content
+                                    ul
+                                        li
+                                            p
+                                                span.text-uppercase 30
+                                                | Oct-2015
+                                        li
+                                            p
+                                                i.fa.fa-comment-o(aria-hidden='true')
+                                                | 8- Com
+                                        li
+                                            p
+                                                i.fa.fa-eye(aria-hidden='true')
+                                                | 16- View
+                                    .home-news-content-image
+                                        img(src='../img/home/layer-10.png', alt='news-image')
+                                        h4.text-uppercase Blog Heading
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                            .col-xs-12.col-lg-6
+                                .home-news-content
+                                    .home-partners-content-no-image
+                                        h4.text-uppercase Blog Heading
+                                        span.text-uppercase 30 - Oct - 2015
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                                    .home-partners-content-no-image
+                                        h4.text-uppercase Blog Heading
+                                        span.text-uppercase 1 - Nov - 2015
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled...
+                                        a.button-general(href='news.html') View more
+        // home clients
+        section.home-partners
+            .container
+                .row
+                    .col-xs-12.title-text
+                        h2 Partners
+                        p Our Great Partners
+                    .col-xs-12
+                        #carousel-partners.carousel.slide.slider-box(data-ride='carousel', data-interval='6000', data-pause='hover')
+                            .carousel-inner.slider-box-content(role='listbox')
+                                .carousel-item.active
+                                    ul.home-partners-content
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object1.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object2.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object3.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object4.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object5.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object6.png', alt='client')
+                                .carousel-item
+                                    ul.home-partners-content
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object1.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object2.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object3.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object4.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object5.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object6.png', alt='client')
+                                .carousel-item
+                                    ul.home-partners-content
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object1.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object2.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object3.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object4.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object5.png', alt='client')
+                                        li
+                                            img(src='../img/home/partners/vector-smart-object6.png', alt='client')
+                            ol.carousel-indicators.slider-box-list
+                                li.active(data-target='#carousel-partners', data-slide-to='0')
+                                li(data-target='#carousel-partners', data-slide-to='1')
+                                li(data-target='#carousel-partners', data-slide-to='2')
+        // footer
+        footer.footer-main
+          .container.pyramid.pyramid-right
+            .row
+              .col-xs-12.col-md-4.flex-xs-middle
+                a.footer-link(href='#')
+                  img(src='../img/businessplus-logo.png', alt='business plus')
+                p.lawyer 2015 © lawyer.
+                ul.footer-social.list-unstyled
+                  li
+                    button.btn(type='button')
+                      i.fa.fa-facebook(aria-hidden='true')
+                  li
+                    button.btn(type='button')
+                      i.fa.fa-google-plus(aria-hidden='true')
+                  li
+                    button.btn(type='button')
+                      i.fa.fa-twitter(aria-hidden='true')
+                  li
+                    button.btn(type='button')
+                      i.fa.fa-instagram(aria-hidden='true')
+              .col-xs-12.col-md-3.flex-xs-top
+                p.h3.footer-nav Navigation
+                ul.list-unstyled.list-navigation
+                  li
+                    a(href='../jade/index.html') Home
+                  li
+                    a(href='#') About us
+                  li
+                    a(href='#') services
+                  li
+                    a(href='#') Tesimonial
+                  li
+                    a(href='#') blog
+                  li
+                    a(href='#') Contact Us
+              .col-xs-12.col-md-5.flex-xs-top
+                p.h3.footer-form-head Quick contact us
+                form(action='', method='post')
+                  .form-group.row
+                    .col-xs-6.name-input
+                      label.form-name
+                        input.qwerty(type='text', name='name', placeholder='Name *', required='')
+                    .col-xs-6.email-input
+                      label.form-email
+                        input(type='email', name='email', placeholder='Email *', required='')
+                    .col-xs-12
+                      label.form-comment
+                        textarea(name='comment', placeholder='Comment *')
+                  .row
+                    .col-xs-12
+                      button.btn.button-general(type='submit') Submit Now
+        // jQuery first, then Tether, then Bootstrap JS.
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', integrity='sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js', integrity='sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8', crossorigin='anonymous')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js', integrity='sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK', crossorigin='anonymous')
+
+
+
+
+
+
+
